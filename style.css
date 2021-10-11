@@ -1,0 +1,1228 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+  font-family: raleway extralight;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+.index {
+  background-color: #252934;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.contact {
+  background-color: #252934;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.about {
+  background-color: #ffffff;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.projects {
+  background-color: #f5f5f5;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.thanks {
+  background-color: #252934;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.top-menu {
+  display: flex;
+  margin-right: 10rem;
+  align-items: center;
+}
+.top-menu > li {
+  list-style: none;
+  margin-left: 2rem;
+}
+.top-menu > li > a {
+  text-decoration: none;
+  color: #fefefe;
+  text-align: right;
+  font-size: 2rem;
+  transition: 500ms;
+}
+.top-menu a:hover {
+  color: #e31b6d;
+}
+.top-menu .current {
+  color: #e31b6d;
+}
+.top-menu-wrapper-home {
+  background-color: #1b242f;
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 900;
+  position: fixed;
+}
+.top-menu-wrapper {
+  background-color: #1b242f;
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 900;
+  border-bottom: 0.3rem solid #05c2c9;
+  position: fixed;
+}
+#brand {
+  font-size: 2.5rem;
+  margin-left: 10rem;
+  text-decoration: none;
+  color: #fefefe;
+  transition: 500ms;
+  align-self: center;
+}
+#brand:hover {
+  color: #e31b6d;
+}
+.introduction {
+  font-size: 2rem;
+  color: #fefefe;
+  transition: 1000ms;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.introduction span {
+  color: #e31b6d;
+}
+.thankYou {
+  font-size: 2rem;
+  color: #fefefe;
+  transition: 1000ms;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.thankYou span {
+  color: #e31b6d;
+}
+.footer {
+  background-color: #1b242f;
+  box-shadow: 0 0 1rem #1b242f;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  font-size: 2.5rem;
+}
+.footer a {
+  color: #fefefe;
+}
+.facebook:hover {
+  transform: scale(1.2);
+  color: #4267b2;
+}
+.instagram:hover {
+  transform: scale(1.2);
+  color: #fbad50;
+}
+.linkedin:hover {
+  transform: scale(1.2);
+  color: #0e76a8;
+}
+.github:hover {
+  transform: scale(1.2);
+  color: #6cc644;
+}
+.copywright {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 0.6rem;
+  padding: 1rem 1rem;
+  text-align: center;
+}
+.copywright a {
+  text-decoration: underline;
+  transition: 1000ms;
+}
+.copywright a:hover {
+  color: #e31b6d;
+}
+.copywright a {
+  text-decoration: underline;
+  transition: 1000ms;
+}
+.copywright a:hover {
+  color: #e31b6d;
+}
+.copywright .ap {
+  color: #1b242f;
+}
+.copywright .hc {
+  color: #fefefe;
+}
+.symbol1 {
+  font-size: 1.7rem;
+}
+.rights {
+  font-size: 0.6rem;
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+}
+.contact-title {
+  position: relative;
+  color: #05c2c9;
+  font-size: 2.5rem;
+  padding: 2rem 0rem;
+  text-align: center;
+}
+.contact-input,
+.contact-textarea {
+  width: 100%;
+  background: #1b242f;
+  border: 0.5rem solid #252934;
+  font-family: raleway medium;
+  text-indent: 2rem;
+  color: #fefefe;
+  font-size: 2rem;
+  margin-top: 0.1rem;
+}
+.contact-input {
+  height: 4rem;
+  vertical-align: middle;
+}
+textarea {
+  font-family: raleway medium;
+  /* font-size: 2rem; */
+}
+input::placeholder {
+  text-indent: 2rem;
+  font-size: 2rem;
+  font-family: raleway medium;
+}
+.form-control input:focus,
+.form-control textarea:focus {
+  outline: none;
+}
+.submit-btn {
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 15rem;
+  background: #1b242f;
+  color: white;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #fefefe;
+  color: #fefefe;
+  transition: 500ms;
+  font-size: 1.5rem;
+}
+.submit-btn:hover {
+  background: #05c2c9;
+  border: 0.1rem solid #05c2c9;
+}
+/* #status {
+  font-size: 2rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+#status.success {
+  background-color: #05c2c9;
+  color: white;
+  animation: status 4s ease forewards;
+}
+#status.error {
+  background-color: #e31b6d;
+  color: white;
+  animation: status 4s ease forewards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+} */
+.forte {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+}
+.forte i {
+  color: #05c2c9;
+  font-size: 7rem;
+  padding-bottom: 1rem;
+}
+#fast i {
+  color: #ffffff;
+  animation: fast 5s ease-out 0s 1 normal forwards;
+}
+@keyframes fast {
+  from {
+    color: #ffffff;
+  }
+  to {
+    color: #05c2c9;
+  }
+}
+#responsive i {
+  color: #ffffff;
+  animation: fast 5s ease-out 1s 1 normal forwards;
+}
+@keyframes responsive {
+  from {
+    color: #ffffff;
+  }
+  to {
+    color: #05c2c9;
+  }
+}
+#intuitive i {
+  color: #ffffff;
+  animation: fast 5s ease-out 2s 1 normal forwards;
+}
+@keyframes intuitive {
+  from {
+    color: #ffffff;
+  }
+  to {
+    color: #05c2c9;
+  }
+}
+#dynamic i {
+  color: #ffffff;
+  animation: fast 5s ease-out 3s 1 normal forwards;
+}
+@keyframes dynamic {
+  from {
+    color: #ffffff;
+  }
+  to {
+    color: #05c2c9;
+  }
+}
+.forte h1 {
+  color: #626262;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.forte h2 {
+  color: #626262;
+  font-weight: normal;
+  padding: 0 2rem;
+}
+.profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-pic .pic-hexagon {
+  position: absolute;
+  width: 45rem;
+  height: 30rem;
+}
+.profile-pic .pic-hexagon .pic-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.description h1 {
+  color: #626262;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.description h2 {
+  color: #626262;
+  font-weight: normal;
+  text-align: center;
+}
+#particles-js {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+.graph .skills {
+  position: relative;
+  display: flex;
+  margin: 2rem 0;
+  height: 2.5rem;
+  background: #05c2c9;
+  overflow: hidden;
+  transition: 0.5s;
+  align-items: center;
+}
+.graph .skills .Name {
+  position: relative;
+  width: 11rem;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.graph .skills .Value {
+  position: relative;
+  width: 4rem;
+  height: 2.5rem;
+  text-align: center;
+  color: #626262;
+  background: #eeeeee;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.graph .skills .percent {
+  position: relative;
+  width: calc(100% - 15rem);
+  height: 2.5rem;
+  background: #eeeeee;
+  overflow: hidden;
+}
+.graph .skills .percent .progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  background: #01a1a7;
+  animation: animate 2s ease-in-out forwards;
+}
+
+@keyframes animate {
+  from {
+    width: 0;
+  }
+}
+.about {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-rows: repeat(12, minmax(0, 1fr));
+  grid-template-areas:
+    "header header header header header header header header header header header header"
+    ". . fast fast responsive responsive intuitive intuitive dynamic dynamic . ."
+    ". . fast fast responsive responsive intuitive intuitive dynamic dynamic . ."
+    ". . fast fast responsive responsive intuitive intuitive dynamic dynamic . ."
+    ". . fast fast responsive responsive intuitive intuitive dynamic dynamic . ."
+    ". . pic pic pic graph graph graph graph graph . ."
+    ". . pic pic pic graph graph graph graph graph . ."
+    ". . pic pic pic graph graph graph graph graph . ."
+    ". . descr descr descr graph graph graph graph graph . ."
+    ". . descr descr descr graph graph graph graph graph . ."
+    ". . descr descr descr graph graph graph graph graph . ."
+    ". copyw copyw copyw . . . . rights rights rights .";
+  height: 100vh;
+  gap: 0.1rem;
+}
+.top-menu-wrapper {
+  grid-area: header;
+}
+#fast {
+  grid-area: fast;
+}
+#responsive {
+  grid-area: responsive;
+}
+#intuitive {
+  grid-area: intuitive;
+}
+#dynamic {
+  grid-area: dynamic;
+}
+.profile-pic {
+  grid-area: pic;
+}
+.description {
+  grid-area: descr;
+}
+.graphs {
+  grid-area: graph;
+}
+.footer {
+  grid-area: footer;
+}
+.copywright {
+  grid-area: copyw;
+}
+.rights {
+  grid-area: rights;
+}
+.projects {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-rows: repeat(12, minmax(0, 1fr));
+  grid-template-areas:
+    "header header header header header header header header header header header header"
+    ". . . . . . . . . . . ."
+    ". . p1 p1 p1 p1 p2 p2 p2 p2 . ."
+    ". . p1 p1 p1 p1 p2 p2 p2 p2 . ."
+    ". . p1 p1 p1 p1 p2 p2 p2 p2 . ."
+    ". . p1 p1 p1 p1 p2 p2 p2 p2 . ."
+    ". . p3 p3 p4 p4 p5 p5 p6 p6 . ."
+    ". . p3 p3 p4 p4 p5 p5 p6 p6 . ."
+    ". . p3 p3 p4 p4 p5 p5 p6 p6 . ."
+    ". . p3 p3 p4 p4 p5 p5 p6 p6 . ."
+    ". . . . . . . . . . . ."
+    ". copyw copyw copyw . . . . rights rights rights .";
+  height: 100vh;
+  gap: 2rem;
+}
+#project1 {
+  grid-area: p1;
+  background-image: url(./Images/DulceCaMierea.png);
+  background-size: contain;
+}
+#project2 {
+  grid-area: p2;
+  background: #f5f5f5;
+}
+#project3 {
+  grid-area: p3;
+  background: #f5f5f5;
+}
+#project4 {
+  grid-area: p4;
+  background: #f5f5f5;
+}
+#project5 {
+  grid-area: p5;
+  background: #f5f5f5;
+}
+#project6 {
+  grid-area: p6;
+  background: #f5f5f5;
+}
+.project {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fefefe;
+}
+.contact {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-rows: repeat(12, minmax(0, 1fr));
+  grid-template-areas:
+    "header header header header header header header header header header header header"
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . cont cont cont cont cont cont . . ."
+    ". . . cont cont cont cont cont cont . . ."
+    ". . . cont cont cont cont cont cont . . ."
+    ". . . cont cont cont cont cont cont . . ."
+    ". . . cont cont cont cont cont cont . . ."
+    ". . . cont cont cont cont cont cont . . ."
+    ". . . cont cont cont cont cont cont . . ."
+    ". . . . . . . . . . . ."
+    ". copyw copyw copyw . footer footer . rights rights rights .";
+  height: 100vh;
+  gap: 0.1rem;
+}
+.contact-container {
+  grid-area: cont;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.index {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-rows: repeat(12, minmax(0, 1fr));
+  grid-template-areas:
+    "headerh headerh headerh headerh headerh headerh headerh headerh headerh headerh headerh headerh"
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . int int int int int int . . ."
+    ". . . int int int int int int . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". copyw copyw copyw . . . . rights rights rights .";
+  height: 100vh;
+  gap: 0.1rem;
+}
+.top-menu-wrapper-home {
+  grid-area: headerh;
+}
+.introduction {
+  grid-area: int;
+}
+.project {
+  transition: all 1s;
+  overflow: hidden;
+  box-shadow: 0rem 0rem 1rem #626262;
+  border: 0.1rem solid #626262;
+  border-radius: 2rem;
+  filter: grayscale(100%);
+}
+.project:hover,
+.project:focus {
+  transform: scale(1.02);
+  filter: none;
+}
+.thanks {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-rows: repeat(12, minmax(0, 1fr));
+  grid-template-areas:
+    "headerh headerh headerh headerh headerh headerh headerh headerh headerh headerh headerh headerh"
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . ty ty ty ty ty ty . . ."
+    ". . . ty ty ty ty ty ty . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". copyw copyw copyw . . . . rights rights rights .";
+  height: 100vh;
+  gap: 0.1rem;
+}
+.thankYou {
+  grid-area: ty;
+}
+@media (max-width: 480px) {
+  .index {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "headerh headerh"
+      ". ."
+      ". ."
+      ". ."
+      "int int"
+      "int int"
+      "int int"
+      "int int"
+      ". ."
+      ". ."
+      ". ."
+      "copyw rights";
+    height: 100vh;
+  }
+  .top-menu {
+    margin-right: 2rem;
+  }
+  #brand {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+  }
+  .introduction {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+  .top-menu > li > a {
+    font-size: 1.5rem;
+  }
+  .top-menu-wrapper-home {
+    padding: 0.4rem 0rem;
+  }
+  .top-menu-wrapper {
+    padding: 0.4rem 0rem;
+  }
+  .thanks {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "headerh headerh"
+      ". ."
+      ". ."
+      ". ."
+      "ty ty"
+      "ty ty"
+      "ty ty"
+      "ty ty"
+      ". ."
+      ". ."
+      ". ."
+      "copyw rights";
+    height: 100vh;
+  }
+  .thankYou {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+  }
+  .about {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "header header"
+      "fast responsive"
+      "fast responsive"
+      "intuitive dynamic"
+      "intuitive dynamic"
+      "pic pic"
+      "pic pic"
+      "descr descr"
+      "graph graph"
+      "graph graph"
+      "graph graph"
+      "copyw rights";
+    height: 100vh;
+  }
+  .forte {
+    padding: 0.1rem 1rem;
+  }
+  .forte i {
+    font-size: 2.5rem;
+    padding: 0;
+  }
+  .forte h1 {
+    font-size: 1.5rem;
+    padding: 0rem;
+  }
+  .forte h2 {
+    font-size: 1rem;
+  }
+  .description {
+    padding: 0rem 2rem;
+  }
+  .description h1 {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+  .description h2 {
+    font-size: 1rem;
+  }
+  .graph {
+    padding: 0rem 2rem;
+  }
+  .profile-pic .pic-hexagon {
+    width: 13rem;
+    height: 9rem;
+  }
+  .graph .skills {
+    margin: 0.8rem 0;
+    height: 1.5rem;
+  }
+  .graph .skills .Name {
+    font-size: 1rem;
+  }
+  .graph .skills .Value {
+    height: 1.5rem;
+    font-size: 1rem;
+  }
+  .graph .skills .percent {
+    height: 1.5rem;
+  }
+  .copywright {
+    font-size: 0.4rem;
+    padding: 0 1rem;
+  }
+  .rights {
+    font-size: 0.4rem;
+  }
+  .symbol1 {
+    font-size: 1rem;
+  }
+  .projects {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "header header"
+      ". ."
+      "p1 p1"
+      "p1 p1"
+      "p1 p1"
+      "p2 p2"
+      "p3 p3"
+      "p4 p4"
+      "p5 p5"
+      "p6 p6"
+      ". ."
+      "copyw rights";
+    height: 100vh;
+  }
+  .contact {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "header header"
+      ". ."
+      ". ."
+      ". ."
+      "cont cont"
+      "cont cont"
+      "cont cont"
+      ". ."
+      ". ."
+      ". ."
+      "copyw rights"
+      "footer footer";
+    height: 100vh;
+  }
+  .contact-container {
+    padding: 0 2rem;
+  }
+  .contact-title {
+    font-size: 2rem;
+  }
+  .contact-input,
+  .contact-textarea {
+    font-size: 1.5rem;
+  }
+  .contact-input {
+    height: 3rem;
+  }
+  input::placeholder {
+    text-indent: 2rem;
+    font-size: 1.5rem;
+    font-family: raleway medium;
+  }
+  .submit-btn {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    width: 10rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .index {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "headerh headerh"
+      ". ."
+      ". ."
+      ". ."
+      "int int"
+      "int int"
+      "int int"
+      "int int"
+      ". ."
+      ". ."
+      ". ."
+      "copyw rights";
+    height: 100vh;
+  }
+  .top-menu {
+    margin-right: 4rem;
+  }
+  #brand {
+    margin-left: 4rem;
+    font-size: 2rem;
+  }
+  .introduction {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+  .top-menu > li > a {
+    font-size: 2rem;
+  }
+  .top-menu-wrapper-home {
+    padding: 0.4rem 0rem;
+  }
+  .top-menu-wrapper {
+    padding: 0.4rem 0rem;
+  }
+  .thanks {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "headerh headerh"
+      ". ."
+      ". ."
+      ". ."
+      "ty ty"
+      "ty ty"
+      "ty ty"
+      "ty ty"
+      ". ."
+      ". ."
+      ". ."
+      "copyw rights";
+    height: 100vh;
+  }
+  .thankYou {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+  .about {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "header header"
+      "fast responsive"
+      "fast responsive"
+      "intuitive dynamic"
+      "intuitive dynamic"
+      "pic pic"
+      "pic pic"
+      "descr descr"
+      "graph graph"
+      "graph graph"
+      "graph graph"
+      "copyw rights";
+    height: 100vh;
+  }
+  .forte {
+    padding: 1rem 4rem;
+  }
+  .forte i {
+    font-size: 4rem;
+    padding: 1;
+  }
+  .forte h1 {
+    font-size: 2rem;
+    padding: 0rem;
+  }
+  .forte h2 {
+    font-size: 1.3rem;
+  }
+  .description {
+    padding: 0rem 4rem;
+  }
+  .description h1 {
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+  .description h2 {
+    font-size: 1.3rem;
+  }
+  .graph {
+    padding: 2rem 4rem;
+  }
+  .profile-pic .pic-hexagon {
+    width: 15rem;
+    height: 10rem;
+  }
+  .graph .skills {
+    margin: 1rem 0;
+    height: 1.7rem;
+  }
+  .graph .skills .Name {
+    font-size: 1rem;
+  }
+  .graph .skills .Value {
+    height: 1.7rem;
+    font-size: 1rem;
+  }
+  .graph .skills .percent {
+    height: 1.7rem;
+  }
+  .copywright {
+    font-size: 0.5rem;
+  }
+  .symbol1 {
+    font-size: 1.5rem;
+  }
+  .rights {
+    font-size: 0.5rem;
+  }
+  .projects {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "header header"
+      ". ."
+      "p1 p1"
+      "p1 p1"
+      "p1 p1"
+      "p2 p2"
+      "p3 p3"
+      "p4 p4"
+      "p5 p5"
+      "p6 p6"
+      ". ."
+      "copyw rights";
+    height: 100vh;
+  }
+  .contact {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "header header"
+      ". ."
+      ". ."
+      ". ."
+      "cont cont"
+      "cont cont"
+      "cont cont"
+      ". ."
+      ". ."
+      ". ."
+      "copyw rights"
+      "footer footer";
+    height: 100vh;
+  }
+  .contact-container {
+    padding: 0 4rem;
+  }
+  .contact-title {
+    font-size: 2rem;
+  }
+  .contact-input,
+  .contact-textarea {
+    font-size: 1.5rem;
+  }
+  .contact-input {
+    height: 3rem;
+  }
+  input::placeholder {
+    text-indent: 2rem;
+    font-size: 1.5rem;
+    font-family: raleway medium;
+  }
+  .submit-btn {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    width: 10rem;
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .index {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "headerh headerh"
+      ". ."
+      ". ."
+      ". ."
+      "int int"
+      "int int"
+      "int int"
+      "int int"
+      ". ."
+      ". ."
+      ". ."
+      "copyw rights";
+    height: 100vh;
+  }
+  .top-menu {
+    margin-right: 7rem;
+  }
+  #brand {
+    margin-left: 7rem;
+    font-size: 2.2rem;
+  }
+  .introduction {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+  .top-menu > li > a {
+    font-size: 2.2rem;
+  }
+  .top-menu-wrapper-home {
+    padding: 0.6rem 0rem;
+  }
+  .top-menu-wrapper {
+    padding: 0.6rem 0rem;
+  }
+  .thanks {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "headerh headerh"
+      ". ."
+      ". ."
+      ". ."
+      "ty ty"
+      "ty ty"
+      "ty ty"
+      "ty ty"
+      ". ."
+      ". ."
+      ". ."
+      "copyw rights";
+    height: 100vh;
+  }
+  .thankYou {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+  .about {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "header header"
+      "fast responsive"
+      "fast responsive"
+      "intuitive dynamic"
+      "intuitive dynamic"
+      "pic pic"
+      "pic pic"
+      "descr descr"
+      "graph graph"
+      "graph graph"
+      "graph graph"
+      "copyw rights";
+    height: 100vh;
+  }
+  .forte {
+    padding: 1rem 4rem;
+  }
+  .forte i {
+    font-size: 6rem;
+    padding: 1;
+  }
+  .forte h1 {
+    font-size: 2.5rem;
+    padding: 1rem;
+  }
+  .forte h2 {
+    font-size: 1.7rem;
+    padding: 0 3rem;
+  }
+  .description {
+    padding: 0rem 4rem;
+  }
+  .description h1 {
+    font-size: 2.5rem;
+    padding: 0.5rem;
+  }
+  .description h2 {
+    font-size: 1.7rem;
+    padding: 0 3rem;
+  }
+  .graph {
+    padding: 2rem 6rem;
+  }
+  .profile-pic .pic-hexagon {
+    width: 20rem;
+    height: 14rem;
+  }
+  .graph .skills {
+    margin: 1.5rem 0;
+    height: 2rem;
+  }
+  .graph .skills .Name {
+    font-size: 1.2rem;
+  }
+  .graph .skills .Value {
+    height: 2rem;
+    font-size: 1.2rem;
+  }
+  .graph .skills .percent {
+    height: 2rem;
+  }
+  .copywright {
+    font-size: 0.6rem;
+  }
+  .symbol1 {
+    font-size: 1.8rem;
+  }
+  .rights {
+    font-size: 0.6rem;
+  }
+  .projects {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "header header header header"
+      ". . . ."
+      ". p1 p1 ."
+      ". p1 p1 ."
+      ". p2 p3 ."
+      ". p2 p3 ."
+      ". p4 p5 ."
+      ". p4 p5 ."
+      ". p6 p6 ."
+      ". p6 p6 ."
+      ". . . ."
+      "copyw copyw rights rights";
+    height: 100vh;
+  }
+  .contact {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "header header"
+      ". ."
+      ". ."
+      ". ."
+      "cont cont"
+      "cont cont"
+      "cont cont"
+      ". ."
+      ". ."
+      ". ."
+      "copyw rights"
+      "footer footer";
+    height: 100vh;
+  }
+  .contact-container {
+    padding: 0 4rem;
+  }
+  .contact-title {
+    font-size: 2.5rem;
+  }
+  .contact-input,
+  .contact-textarea {
+    font-size: 2rem;
+  }
+  .contact-input {
+    height: 3rem;
+  }
+  input::placeholder {
+    text-indent: 2rem;
+    font-size: 2rem;
+    font-family: raleway medium;
+  }
+  .submit-btn {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    width: 10rem;
+    font-size: 2rem;
+  }
+  .copywright {
+    display: flex;
+    align-items: flex-end;
+  }
+  .rights {
+    display: flex;
+    align-items: flex-end;
+  }
+}
